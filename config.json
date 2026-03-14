@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "targetRoles": ["Frontend Engineer", "Front End Engineer", "Frontend Developer", "Software Engineer", "React Developer", "JavaScript Developer", "UI Engineer", "Web Developer"],
+    "seniorityLevel": "senior",
+    "skills": ["React", "JavaScript", "TypeScript", "Vue", "Gatsby", "CSS", "SCSS", "HTML", "REST APIs", "Git", "AEM", "CMS"],
+    "preferredLocations": ["remote"],
+    "excludeCompanies": []
+  },
+  "sources": {
+    "remotive": {
+      "enabled": true,
+      "searchQuery": "javascript"
+    },
+    "themuse": {
+      "enabled": true,
+      "searchQuery": "Software Engineer",
+      "level": ["Mid Level", "Senior Level"]
+    },
+    "greenhouse": {
+      "enabled": true,
+      "companySlugs": [
+        "vercel", "stripe", "linear", "notion", "figma",
+        "loom", "zapier", "descript", "retool", "airtable", "webflow", "framer",
+        "atlassian", "shopify", "hubspot", "intercom",
+        "github", "discord", "brex", "gusto", "tailscale", "supabase", "render", "fly"
+      ]
+    }
+  },
+  "scoring": {
+    "minimumScore": 6,
+    "topN": 20,
+    "maxAgeDays": 21
+  },
+  "resume": {
+    "inputPath": "./input/resume.docx",
+    "tailoringEnabled": false,
+    "tailorTopN": 5
+  },
+  "output": {
+    "directory": "./output"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "job-search-cli",
+  "version": "1.0.0",
+  "description": "Automated job search and resume tailoring CLI for a mid-level frontend developer",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "start:tailor": "node --env-file=.env src/index.js --tailor",
+    "dry-run": "node --env-file=.env src/index.js --dry-run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "docx": "^9.5.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
