@@ -1,5 +1,6 @@
 output/
 input/
+.claude/
 
 # Logs
 logs
